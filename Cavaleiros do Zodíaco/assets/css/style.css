@@ -1,0 +1,26 @@
+body{
+    background-color: skyblue;
+}
+
+h2, h3{
+    background-color: white;
+}
+
+
+h1{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+.galeria{
+    width: 700px;
+}
+
+.mais_fortes{
+    width: 100%;
+}
+
+p{
+    font-size: 20px;
+}

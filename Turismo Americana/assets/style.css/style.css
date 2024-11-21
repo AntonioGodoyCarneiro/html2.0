@@ -1,0 +1,75 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: "Passero One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+#pagina_home{
+    height: 560px;
+    width: 1583px;
+    background: linear-gradient(rgba(17, 17, 15, 0.315), rgba(34, 30, 4, 0.281)), url(../img/Banner.png);
+    background-size:cover;
+}
+
+.logo{
+    width: 168px;
+    height: 168px;
+    padding-top: 107px;
+    padding-left: 81px;
+}
+
+.menu_principal{
+    list-style: none;
+    
+}
+
+.menu_principal ul li{
+    display: inline-block;
+}  
+
+.menu_principal ul li a{
+    color: black;
+    text-decoration: none;
+    padding: 5px 10px;
+    border: 1px solid transparent;
+    transition: 0.5s ease;
+    margin: 10px;
+    font-size: 32px;
+}
+
+.menu_principal ul li a:hover{
+    background-color: white;
+    color: rgb(30, 159, 182);
+}
+
+.categoria{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.titulo{
+    text-align: center  ;
+    
+}
+
+.pon_tu{
+    font-size: 35px;
+}
+
+.galeria{
+    display: flex;
+    gap: 90px;
+    justify-content: center;    
+}   
+
+figure{
+    font-size: 48px;
+    text-align: center;
+}
+
+h2,  h1{
+    font-size: 48px;
+}
