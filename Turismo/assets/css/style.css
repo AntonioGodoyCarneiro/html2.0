@@ -1,0 +1,134 @@
+/* O asterisco (*) seleciona todos os elementos do documento */
+* {
+    margin: 0; /* Remove a margem padrão de todos os elementos */
+    padding: 0; /* Remove o preenchimento padrão de todos os elementos */
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; /* Define a fonte padrão do site */
+}
+
+/* Estilo para a logo */
+.logo {
+    width: 150px; /* Define a largura da logo */
+}
+
+/* Estilo para a seção principal da página inicial */
+#pagina_home {
+    height: 630px; /* Define a altura da seção */
+    background: linear-gradient(rgba(17,17,15,0.404), rgba(34,30,4,0.685)), url(../img/banner.png); /* Define um fundo com gradiente e imagem */
+    background-size: cover; /* Faz com que a imagem de fundo cubra toda a área */
+}
+
+/* Estilo para o menu principal */
+.menu_principal ul {
+    list-style: none; /* Remove as bolinhas dos itens da lista */
+}
+
+.menu_principal ul li {
+    display: inline-block; /* Exibe os itens do menu na mesma linha */
+}
+
+.menu_principal ul li a {
+    color: white; /* Define a cor do texto dos links como branco */
+    text-decoration: none; /* Remove a linha sublinhada dos links */
+    text-transform: uppercase; /* Converte o texto para maiúsculas */
+    padding: 5px 20px; /* Define o preenchimento interno dos links */
+    border: 1px solid transparent; /* Define uma borda invisível ao redor dos links */
+    transition: 0.06s ease; /* Define a velocidade da transição para o hover */
+}
+
+.menu_principal ul li a:hover {
+    background-color: white; /* Cor de fundo do link ao passar o mouse */
+    color: black; /* Cor do texto do link ao passar o mouse */
+}
+
+.menu_principal ul li .link-ativo {
+    background: white; /* Cor de fundo para o link ativo */
+    color: black; /* Cor do texto para o link ativo */
+}
+
+/* Estilo para a categoria, onde está o logo e o menu */
+.categoria {
+        display: flex; /* Habilita o uso de flexbox */
+        align-items: center; /* Alinha verticalmente os itens ao centro */
+        justify-content: space-between; /* Espaça os itens uniformemente */
+}
+
+/* Estilo para o título principal */
+h1 {
+    font-size: 70px; /* Define o tamanho da fonte do título */
+    color: white; /* Define a cor do texto como branco */
+    margin: 30px; /* Define a margem em torno do título */
+}
+
+/* Estilo para os botões */
+.btn {
+    border: 1px solid white; /* Borda branca ao redor do botão */
+    padding: 10px 80px; /* Preenchimento interno do botão */
+    color: white; /* Cor do texto do botão */
+    text-decoration: none; /* Remove a linha sublinhada do botão */
+    transition: 0.6s ease; /* Transição suave ao passar o mouse */
+    margin: 10px; /* Margem em torno do botão */
+}
+
+.btn:hover {
+    background-color: white; /* Cor de fundo do botão ao passar o mouse */
+    color: black; /* Cor do texto do botão ao passar o mouse */
+}
+
+/* Estilo para o conteúdo do banner */
+.conteudo_banner {
+    height: 438px; /* Altura da seção do banner */
+    display: flex; /* Habilita o uso de flexbox */
+    justify-content: center; /* Centraliza os itens horizontalmente */
+    flex-direction: column; /* Alinha os itens em coluna */
+    align-items: center; /* Alinha os itens ao centro verticalmente */
+}
+
+/* Estilo para a seção de passeios */
+#passeios main {
+    height: 630px; /* Altura do main dentro da seção de passeios */
+    display: flex; /* Habilita o uso de flexbox */
+    justify-content: center; /* Centraliza os itens horizontalmente */
+    align-items: center; /* Centraliza os itens verticalmente */
+    margin: 10px; /* Margem em torno do main */
+}
+
+#passeios {
+    background-color: beige; /* Cor de fundo da seção de passeios */
+}
+
+/* Estilo para as imagens dos passeios */
+.foto {
+    width: 314px; /* Largura das imagens */
+    height: 368px; /* Altura das imagens */
+    justify-content: space-around; /* Espaça os itens ao redor */
+    gap: 10px; /* Espaçamento entre os itens */
+}
+
+.leg_meio {
+    margin-left: 20px; /* Margem à esquerda da legenda */
+    margin-right: 20px; /* Margem à direita da legenda */
+}
+
+.foto_meio {
+    margin-left: 20px; /* Margem à esquerda das fotos do meio */
+    margin-right: 20px; /* Margem à direita das fotos do meio */
+    width: 314px; /* Largura das fotos do meio */
+    height: 368px; /* Altura das fotos do meio */
+}
+
+/* Estilo para as legendas das imagens */
+figcaption {
+    background-color: #d35400; /* Cor de fundo da legenda */
+    text-align: center; /* Alinha o texto da legenda ao centro */
+    color: white; /* Cor do texto da legenda */
+    padding-top: 7px; /* Preenchimento superior da legenda */
+    padding-bottom: 7px; /* Preenchimento inferior da legenda */
+    width: 314px; /* Largura da legenda */
+}
+
+/* Estilo para o link que retorna ao início da página */
+.link {
+    display: flex; /* Habilita o uso de flexbox */
+    justify-content: flex-end; /* Alinha o conteúdo à direita */
+    content: 10px; /* Espaçamento superior, opcional (este não está correto; deve ser margin ou padding) */
+}

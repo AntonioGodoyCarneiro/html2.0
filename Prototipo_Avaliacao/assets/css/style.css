@@ -1,0 +1,339 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+}
+
+header nav{
+    
+    padding: 30px 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logo{
+    display: flex;
+    justify-self: center;
+    align-items: center;
+    width: 100px;
+    height: 100px;
+    margin-left: 5px;
+}
+
+
+.menu, .login{
+    list-style: none;
+    display: flex;
+    gap: 50px;
+}
+
+.menu li a, .login li a{
+    text-decoration: none;
+    color: black;
+    padding: 8px;
+    border-radius: 8px;
+}
+
+.menu li a:hover, .login li a:hover{
+    background-color: black;
+    color:white;
+}
+
+#banner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#banner img{
+    width: 100%;
+    height: 505px;    
+}
+
+#principal{
+    margin-top: 5px;
+    
+    display: flex;
+    gap: 15px;
+}
+
+.foto_homem{
+    width: 461px;
+    height: 676px;
+    margin-left: 79px;
+}
+
+h1{
+    font-size: 48px;
+    margin-top: 35px;
+}
+
+#principal .conteudo p{
+    font-size: 16px;
+    margin-top: 30px;
+}
+
+#violinoTop3 figure{
+    background-color: #d9d9d9;
+    padding: 15px 0;
+    width: 250px;
+    height: 370px;
+    border-radius: 20px;
+    text-align: center;
+    
+   
+}
+
+
+#violinoTop3 .fotoviolino{
+    width: 200px;
+    height: 200px;
+    border-radius: 20px;
+    object-fit:contain;
+    
+}
+
+#violinoTop3 figcaption{
+    padding: 0 10%;
+    display: flex;
+    flex-grow: 1;
+    flex-direction: column;
+    
+}
+
+.ViolinosCaros{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    gap: 50px;
+}
+
+h3{
+    font-size: 16px;
+    
+    font-weight:bolder;
+}
+
+#violinoTop3 p{
+    font-size: 14px;
+    text-align: justify;
+    display: -webkit-box;
+    -webkit-line-clamp: 7;
+    -webkit-box-orient: vertical;
+    overflow: hidden;   
+      
+}
+
+#cadastrar{
+    margin-top: 20px;
+}
+
+.formulario {
+    width: 500px; 
+    margin: 0 ; 
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+
+  label {
+    display: block; /* Coloca as labels em cima dos campos */
+    margin-bottom: 5px;
+  }
+
+input[type="text"],
+input[type="email"],
+input[type="date"],
+textarea {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+#cadastrar{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: flex-start;
+  }
+
+ 
+  footer div {
+    margin: 10px;
+  }
+
+  
+  footer ul {
+    list-style: none;
+    padding: 0;
+  }
+
+  footer ul li {
+    margin: 5px 0;
+  }
+
+  footer a {
+    color: #fff;
+    text-decoration: none;
+  }
+
+  footer a:hover {
+    text-decoration: underline;
+  }
+
+  
+  footer form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  footer input[type="email"] {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 200px;
+  }
+
+  footer button {
+    padding: 10px 20px;
+    background-color: #5cb85c;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  footer button:hover {
+    background-color: #4cae4c;
+  }
+
+ 
+  @media (max-width: 768px) {
+    footer {
+      flex-direction: column;
+      text-align: center;
+    }
+  }
+
+  /* Estilos responsivos */
+
+/* Para telas de até 1024px (como tablets) */
+@media (max-width: 1024px) {
+    #principal {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .foto_homem {
+        width: 80%;
+        height: auto;
+        margin-left: 0;
+    }
+
+    h1 {
+        font-size: 32px;
+    }
+
+    #violinoTop3 {
+        flex-direction: column;
+    }
+
+    .ViolinosCaros {
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .formulario {
+        width: 80%;
+        padding: 15px;
+    }
+}
+
+/* Para telas de até 768px (como smartphones) */
+@media (max-width: 768px) {
+    header nav {
+        flex-direction: column;
+        padding: 20px 0;
+    }
+
+    .logo {
+        width: 80px;
+        height: 80px;
+    }
+
+    .menu, .login {
+        flex-direction: column;
+        gap: 20px;
+        align-items: center;
+    }
+
+    .foto_homem {
+        width: 100%;
+        height: auto;
+        margin-left: 0;
+    }
+
+    h1 {
+        font-size: 28px;
+        text-align: center;
+    }
+
+    #violinoTop3 {
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    .ViolinosCaros {
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .formulario {
+        width: 90%;
+        padding: 15px;
+    }
+
+    footer {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    footer div {
+        margin: 15px 0;
+    }
+
+    footer form {
+        align-items: center;
+    }
+}
+
+  
+

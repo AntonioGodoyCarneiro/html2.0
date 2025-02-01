@@ -1,0 +1,21 @@
+table{
+    border-collapse: collapse;
+    border: 5px solid black;
+    font-family: sans-serif;
+    letter-spacing: 1px;
+    width: 50%;
+}
+
+thead{
+    background-color: aqua;
+}
+
+th, td {
+    border: 3px solid;
+    padding: 8px 10px;
+}
+
+tbody{
+    background-color: aquamarine;
+    text-align: center;
+}

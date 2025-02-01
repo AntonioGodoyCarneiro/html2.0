@@ -1,0 +1,28 @@
+.imagem_padrao{
+    width: 100px ;
+    height:100px ;
+   }
+.imagem_check, .imagem_del{
+    width: 20px;
+    height: 20px;
+}
+
+table{
+border-collapse: collapse;
+border: 2px solid rgb(red, green, blue);
+font-family: sans-serif;
+letter-spacing: 1px;
+width: 50%;
+}
+
+th, td{
+    border:none;
+    padding: 8px 10px;
+}
+
+thead{
+    background-color: aqua;
+}
+tbody{
+    background-color: rgb(238, 238, 225);
+}
